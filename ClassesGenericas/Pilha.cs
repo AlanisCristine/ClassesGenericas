@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassesGenericas;
 
-public class Pilha<T>
+public class Pilha<T> where T : class
 {
     private List<T> Itens = new List<T>();
     
@@ -22,7 +22,7 @@ public class Pilha<T>
     {
         foreach (T Item in Itens)
         {
-            Console.WriteLine(Item);
+            Console.WriteLine(Item.ToString());
         }
     }
 

@@ -18,10 +18,12 @@
 //ListaDePessoas.Adicionar(new Pessoa() { Id = 2, Nome = "Pérola" });
 //ListaDePessoas.MostrarItens();
 
-Pilha<int> pi = new Pilha<int>();
-pi.Push(1);
-pi.Push(2);
-pi.Push(3);
-pi.MostrarItens();
-pi.Pop();
-pi.MostrarItens();
+//Pilha<Pessoa> pi = new Pilha<Pessoa>();
+//pi.Push(new Pessoa() { Id = 1, Nome = "Pérola" });
+//pi.Push(new Pessoa() { Id = 2, Nome = "Alanis" });
+//pi.Push(new Pessoa() { Id = 3, Nome = "Édson" });
+//pi.MostrarItens();
+//pi.Pop();
+//pi.MostrarItens();
+
+//Par<string, int> NomeIdade = new Par<string, int>("Alanis", 17);
